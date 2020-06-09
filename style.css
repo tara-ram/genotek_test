@@ -1,0 +1,124 @@
+body {
+  padding: 0;
+  margin: 0 auto;
+}
+
+p, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1300px;
+}
+
+.header {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.header-list {
+  list-style: none;
+  color: #6d7278;
+  font-weight: 600;
+  margin: 30px 0 15px 0;
+}
+.header-list_item:last-child {
+  display: flex;
+  color: #8a7c5d;
+}
+.header-list_item:last-child p {
+  margin-left: 8px;
+}
+@media (max-width: 460px) {
+  .header-list_item:last-child p {
+    display: none;
+  }
+}
+.header-title {
+  margin-bottom: 30px;
+}
+.header-title h1 {
+  font-size: 30px;
+}
+.header-title p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.accordion {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #fff;
+  max-width: 1300px;
+}
+
+.card {
+  background-color: #142536;
+  border-radius: unset;
+}
+.card-header {
+  border-bottom: solid 1px #405265;
+}
+.card-header:hover {
+  background-color: #22374b;
+}
+.card-header .acc-head {
+  text-align: left;
+  font-size: 22px;
+  line-height: 28px;
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  .card-body_img {
+    margin: 30px 0;
+    align-self: center;
+  }
+}
+.card .arrows-rotate_up {
+  transform: rotate(180deg);
+}
+
+.form-group {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  position: relative;
+}
+.form-group :hover {
+  border-bottom: 1px solid #fff;
+}
+.form-group input::placeholder {
+  color: white;
+}
+.form-group .block-clear {
+  align-items: center;
+  background-image: url("images/close.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 8px;
+  cursor: pointer;
+  height: 14px;
+  position: absolute;
+  right: 5px;
+  width: 14px;
+  z-index: 10;
+}
+
+.form-control {
+  background-color: #142536;
+  border: none;
+  color: #ffffff;
+}
+
+.btn {
+  color: #fff;
+}
+
+.btn-active {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  color: #fff;
+  background-color: transparent;
+  margin-top: 45px;
+}
+
+/*# sourceMappingURL=style.css.map */
